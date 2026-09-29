@@ -1,0 +1,28 @@
+# Terrafrom working directory
+.terraform/ 
+
+# Terraform state files.
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Senstive/local variable files
+*.tfvars
+*.tfvars.json
+
+# Environment files
+.env
+.env.*
+
+# Private Keys
+*.pem
+*.key
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+.dist/
